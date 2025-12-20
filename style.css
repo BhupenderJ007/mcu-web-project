@@ -1,7 +1,8 @@
  body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(to right ,#5d0303, #f10f0f, #5d0303);
+      background: linear-gradient(to right ,#5d0303, #d62727, #5d0303);
+      
    
     }
 
@@ -118,7 +119,8 @@
       text-align: bottom;
     }
     .box:hover {
+      background-color: #ffffff27;
       box-shadow: 4px 4px 15px rgba(10, 10, 10, 0.794);
       transform: scale(1.02);
-      transition: box-shadow 0.3s;
+      transition: box-shadow 0.1s, transform 0.1s;
     }
