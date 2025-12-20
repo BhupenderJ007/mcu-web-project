@@ -22,6 +22,9 @@
     .phase-spec {
       height : 7vh;
       z-index: 100;
+      display : flex;
+      justify-content : center;
+      align-items : center;
       
       text-align: center;
       
@@ -42,13 +45,13 @@
     }
 
     
-    .spacer {
-      height: 120px;
+    #spacer {
+      height: 10vh;
     }
 
     
     .container {
-      margin: 10vh;
+      margin :4vh;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 20px;
@@ -57,7 +60,7 @@
     }
      @media (min-width: 768px) {
       .container {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
       }
     }
 
@@ -116,6 +119,6 @@
     }
     .box:hover {
       box-shadow: 4px 4px 15px rgba(10, 10, 10, 0.794);
-      transform: scale(1.06);
-      transition: box-shadow 0.5s;
+      transform: scale(1.02);
+      transition: box-shadow 0.3s;
     }
