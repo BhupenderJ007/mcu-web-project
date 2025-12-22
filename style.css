@@ -27,12 +27,34 @@ body {
       object-fit: cover;
 }
 
+.aniF {
+  animation: ani 1s ease-in-out forwards;
+}
+
+@keyframes ani {
+  0% {
+    transform: translateX(0) scale(0.5);
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(0) scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-30vw) scale(0.9);
+    opacity: 1;
+  }
+    
+}
+
 #imgfm {
       width: 100%;
       height: 100%;
       border-radius: 20px;
       object-fit: cover;
 }
+
+
 
 header {
       
