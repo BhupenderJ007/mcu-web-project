@@ -5,6 +5,50 @@ body {
     background: linear-gradient(to right ,#5d0303, #d62727, #5d0303);
 }
 
+.bplate {
+      backdrop-filter: blur(5px);
+      position: fixed;
+      top: 15vh;
+      left: 10vw;
+      z-index: 5003;
+      background-color: rgba(115, 115, 115, 0.113);
+      border-radius: 20px;
+      width : 80vw;
+      height: 65vh;
+      object-fit: cover;
+      justify-items: end;
+      
+}
+
+.anib {
+  animation: aniback 1.6s ease-in-out forwards;
+}
+
+@keyframes aniback {
+  0% {
+    width: 0;
+    height: 0;
+    transform: translateX(0)  ;
+    opacity: 0;
+  }
+  40% {
+    background-color: rgba(62, 62, 62, 0.48);
+    width: 0vw;
+    height: 65vh;
+    transform: translateX(-2vw) ;
+    opacity: 0;
+  }
+  100% {
+    border: 0.8px solid rgba(212, 212, 212, 0.714);
+    width: 60vw;
+    height: 65vh;
+    transform: translateX(22vw) ;
+    opacity: 1;
+  }
+    
+}
+
+
 .upper {
       position: fixed;
       width: 100%;
@@ -13,13 +57,14 @@ body {
       top: 0;
       left: 0;
       z-index: 5000;
-      background-color: #242424d3;
+      background-color: #36363672;
       display: flex;
       justify-content: center;
       align-items: center;
 }
 
 .imgh {
+     z-index: 5004;
       background-color: aqua;
       border-radius: 20px;
       height: 80vh;
@@ -28,7 +73,7 @@ body {
 }
 
 .aniF {
-  animation: ani 1s ease-in-out forwards;
+  animation: ani 0.8s ease-in-out forwards;
 }
 
 @keyframes ani {
@@ -36,7 +81,7 @@ body {
     transform: translateX(0) scale(0.5);
     opacity: 1;
   }
-  60% {
+  50% {
     transform: translateX(0) scale(1.1);
     opacity: 1;
   }
