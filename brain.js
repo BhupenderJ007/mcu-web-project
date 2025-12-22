@@ -1,12 +1,17 @@
-let overlay = document.querySelector('.overlay');
-let box = document.querySelector('.box');
+let upper = document.querySelector('.upper');
+let boxes = document.querySelectorAll('.box');
+let imgfm = document.getElementById('imgfm');
 
-let header = document.querySelector('header');
-header.addEventListener('click', () => {
-    windows.alert('Header Clicked!');
-   
+boxes.forEach(box => { 
+    box.addEventListener('click', () => {
+        upper.style.display = 'flex';
+        imgfm.src = box.querySelector('img').src;
+        imgfm.alt = box.querySelector('p').textContent;
+    });
 });
-box.addEventListener('click', () => {
-    windows.alert('Box Clicked!');
-    overlay.style.display = 'flex';
+
+upper.addEventListener('click', () => {
+    upper.style.display = 'none';
+    imgfm.src = '';
+    imgfm.alt = '';
 });
