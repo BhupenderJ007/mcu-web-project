@@ -4,9 +4,66 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right ,#5d0303, #d62727, #5d0303);
 }
+p{
+    margin: 2px;
+}
+
+#trailerbtn{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #a19e9e38;
+  color: white;
+  padding: 8px 16px;
+  border: 1px solid #fffcfc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+ 
+  
+}
+.actname{
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+.charname{
+  color: aliceblue;
+  font-size: 9px;
+  text-align: center;
+} 
+.cast1,.creator1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:auto;
+ 
+}
+.cimg{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.castslide, .creatorslide{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px;
+  height: 15%;
+  width: 100%;
+
+}
+
 
 .bplate {
       backdrop-filter: blur(5px);
+      padding: 10px;
       position: fixed;
       top: 15vh;
       left: 10vw;
@@ -16,12 +73,12 @@ body {
       width : 80vw;
       height: 65vh;
       object-fit: cover;
-      justify-items: end;
+      
       
 }
 
 .anib {
-  animation: aniback 1.6s ease-in-out forwards;
+  animation: aniback 1.2s ease-in-out forwards;
 }
 
 @keyframes aniback {
@@ -40,9 +97,9 @@ body {
   }
   100% {
     border: 0.8px solid rgba(212, 212, 212, 0.714);
-    width: 60vw;
+    width: 50vw;
     height: 65vh;
-    transform: translateX(22vw) ;
+    transform: translateX(28vw) ;
     opacity: 1;
   }
     
