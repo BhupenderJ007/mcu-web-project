@@ -5,24 +5,32 @@ let imgh = document.querySelector('.imgh');
 let bplate = document.querySelector('.bplate');
 
 
-const trailerclosebtn = document.getElementById('trailerclosebtn');
+
 const binfo = document.querySelector('.binfo');
 const trabtn = document.getElementById('trailerbtn');
-const trailer = document.getElementById('trailerview');
+const trailerview = document.querySelector('.trailerview');
+const trastopbtn = document.querySelector('.trailerstop');
+
+
+
+
 
 trabtn.addEventListener('click', (event) => {
     event.stopPropagation();
-    trailer.style.display = 'flex';
+    trailerview.style.display = 'inline-block';
     binfo.style.display = 'none';
-    
+    window.scrollTo(0, 0);
 });
 
-trailerclosebtn.addEventListener('click', (event) => {
+trastopbtn.addEventListener('click', (event) => {
     event.stopPropagation();
-    trailer.style.display = 'none';
-    binfo.style.display = 'flex';
-    
-});
+    trailerview.style.display = 'none';
+    binfo.style.display = 'inline-block';   
+    window.scrollTo(0, 0);      
+}); 
+
+
+
 
 
 
@@ -42,6 +50,6 @@ upper.addEventListener('click', () => {
     upper.style.display = 'none';
     imgfm.src = '';
     imgfm.alt = '';
-    trailer.style.display = 'none';
-    binfo.style.display = 'flex';
+    trailerview.style.display = 'none';
+    binfo.style.display = 'inline-block';
 });
