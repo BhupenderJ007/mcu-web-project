@@ -1,0 +1,64 @@
+{
+  "cast": {
+    "scarlettj": {
+      "name": "Scarlett Johansson",
+      "role": "Natasha Romanoff"
+    },
+    "tomh": {
+      "name": "Tom Holland",
+      "role": "Peter Parker"
+    },
+    "tomhid": {
+      "name": "Tom Hiddleston",
+      "role": "Loki"
+    },
+    "rdj": {
+      "name": "Robert Downey Jr.",
+      "role": "Tony Stark"
+    },
+    "chrish": {
+      "name": "Chris Hemsworth",
+      "role": "Thor"
+    },
+    "markr": {
+      "name": "Mark Ruffalo",
+      "role": "Bruce Banner"
+    },
+    "jeremyr": {
+      "name": "Jeremy Renner",
+      "role": "Clint"
+    },
+    "chrise": {
+      "name": "Chris Evans",
+      "role": "Steve Rogers"
+    },
+    "elizabetho": {
+      "name": "Elizabeth Olsen",
+      "role": "Wanda Maximoff"
+    },
+    "samuelj": {
+      "name": "Samuel L. Jackson",
+      "role": "Nick Fury"
+    },
+    "paulr": {
+      "name": "Paul Rudd",
+      "role": "Scott Lang"
+    },
+    "joshb": {
+      "name": "Josh Brolin",
+      "role": "Thanos"
+    },
+    "jonf": {
+      "name": "Jon Favreau",
+      "role": "Happy Hogan"
+    },
+    "briel": {
+      "name": "Brie Larson",
+      "role": "Carol Danvers"
+    },
+    "gwynethp": {
+      "name": "Gwyneth Paltrow",
+      "role": "Pepper Potts"
+    }
+  }
+}

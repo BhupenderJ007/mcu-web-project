@@ -1,0 +1,44 @@
+{
+  "iron_man": {
+    "title": "Iron Man",
+    "year": 2008,
+    "director": "Jon Favreau",
+    "cinematographer": "Matthew Libatique",
+    "cast": ["a1", "a2", "a3"]
+  },
+  "the_incredible_hulk": {
+    "title": "The Incredible Hulk",
+    "year": 2008,
+    "director": "Louis Leterrier",
+    "cinematographer": "Peter Menzies Jr.",
+    "cast": ["a4", "a5"]
+  },
+  "iron_man_2": {
+    "title": "Iron Man 2",
+    "year": 2010,
+    "director": "Jon Favreau",
+    "cinematographer": "Matthew Libatique",
+    "cast": ["a1", "a3", "a11", "a12"]
+  },
+  "thor": {
+    "title": "Thor",
+    "year": 2011,
+    "director": "Kenneth Branagh",
+    "cinematographer": "Haris Zambarloukos",
+    "cast": ["a8", "a9", "a10", "a11"]
+  },
+  "captain_america_first_avenger": {
+    "title": "Captain America: The First Avenger",
+    "year": 2011,
+    "director": "Joe Johnston",
+    "cinematographer": "Shelly Johnson",
+    "cast": ["a6", "a7", "a11"]
+  },
+  "the_avengers": {
+    "title": "The Avengers",
+    "year": 2012,
+    "director": "Joss Whedon",
+    "cinematographer": "Seamus McGarvey",
+    "cast": ["a1", "a6", "a8", "a12", "a13", "a14", "a11", "a10"]
+  }
+}

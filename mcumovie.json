@@ -1,0 +1,82 @@
+{
+  "movies": {
+    "The Avengers": {
+      "cast": [
+        "scarlettj",
+        "rdj",
+        "chrise",
+        "chrish",
+        "markr",
+        "jeremyr",
+        "samuelj",
+        "tomhid"
+      ],
+      "director": ["Joss Whedon"],
+      "writer": ["Joss Whedon"],
+      "cinematographer": ["Seamus McGarvey"],
+      "trailerlink": "https://www.youtube.com/embed/NPoHPNeU9fc?si=xBNKFRqeM6l_Kmc9"
+    },
+
+    "Avengers: Age of Ultron": {
+      "cast": [
+        "scarlettj",
+        "rdj",
+        "chrise",
+        "chrish",
+        "markr",
+        "jeremyr",
+        "samuelj",
+        "tomhid",
+        "elizabetho"
+      ],
+      "director": ["Joss Whedon"],
+      "writer": ["Joss Whedon"],
+      "cinematographer": ["Ben Davis"],
+      "trailerlink": "https://www.youtube.com/embed/tmeOjFno6Do?si=QzZyFaACL-6tEdQU"
+    },
+
+    "Avengers: Infinity War": {
+      "cast": [
+        "scarlettj",
+        "rdj",
+        "chrise",
+        "chrish",
+        "markr",
+        "jeremyr",
+        "samuelj",
+        "tomh",
+        "tomhid",
+        "paulr",
+        "joshb",
+        "briel",
+        "gwynethp"
+      ],
+      "director": ["Anthony Russo", "Joe Russo"],
+      "writer": ["Christopher Markus", "Stephen McFeely"],
+      "cinematographer": ["Ben Davis"],
+      "trailerlink": "https://www.youtube.com/embed/6ZfuNTqbHE8?si=d2TZ7BqK_cXjL68C"
+    },
+
+    "Avengers: Endgame": {
+      "cast": [
+        "scarlettj",
+        "rdj",
+        "chrise",
+        "chrish",
+        "markr",
+        "jeremyr",
+        "samuelj",
+        "tomh",
+        "tomhid",
+        "paulr",
+        "joshb",
+        "briel",
+        "gwynethp"
+      ],
+      "director": ["Anthony Russo", "Joe Russo"],
+      "writer": ["Christopher Markus", "Stephen McFeely"],
+      "cinematographer": ["Ben Davis"],
+      "trailerlink": "https://www.youtube.com/embed/TcMBFSGVi1c?si=ZgP8qhi8TzKUjoMX"
+    }
+  }
+}

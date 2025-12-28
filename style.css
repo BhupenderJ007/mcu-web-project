@@ -14,7 +14,7 @@ p{
   height: 100%;
 }
 
-.iframe1 {
+#iframe1 {
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
@@ -40,7 +40,7 @@ p{
   background-color: #a19e9e38;
   color: white;
   padding: 8px 16px;
-  border: 1px solid #fffcfc;
+  border: 0.7px solid #fffcfc;
   border-radius: 8px;
   cursor: pointer;
   font-size: 10px;
@@ -69,7 +69,7 @@ p{
   font-size: 9px;
   text-align: center;
 } 
-.cast1,.creator1,.criti1{
+#cast1,.creator1,.criti1{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,8 +87,8 @@ p{
   
 } 
 .cimg{
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -98,7 +98,7 @@ p{
   overflow-x: auto;
   gap: 10px;
   padding: 2%;
-  height: 15%;
+  height: 20%;
   width: 96%;
   &::-webkit-scrollbar {
         display: none;
@@ -232,10 +232,11 @@ header {
         position:sticky;
         top:10vh;
         backdrop-filter: blur(5px);
-        background:#2927276e;
-        color:#fbfbfb;
+       background:#2927276e;
+        
+        color:#292929;
         font-weight: bold;
-        border: rgba(246, 214, 214, 0.792) 0px solid;
+        border: rgb(250, 250, 250) 0px solid;
 }
 
     header img {
@@ -279,17 +280,15 @@ header {
 
     .box {
       top : 10vh;
+      
       background:#29272737;
       border-radius: 8px;
       padding: 10px;
       backdrop-filter: blur(5px);
-
-     
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-     
-      border: rgba(251, 137, 137, 0.611) 1px solid;
+      border: rgba(115, 114, 114, 0.269) 1px solid;
       display: flex;
       flex-direction: column;
+
       
     }
 

@@ -1,0 +1,19 @@
+{
+  "a1": {"name": "Robert Downey Jr.", "role": "Tony Stark / Iron Man"},
+  "a2": {"name": "Terrence Howard", "role": "James Rhodes"},
+  "a3": {"name": "Gwyneth Paltrow", "role": "Pepper Potts"},
+  "a4": {"name": "Edward Norton", "role": "Bruce Banner / Hulk"},
+  "a5": {"name": "Liv Tyler", "role": "Betty Ross"},
+  "a6": {"name": "Chris Evans", "role": "Steve Rogers / Captain America"},
+  "a7": {"name": "Hayley Atwell", "role": "Peggy Carter"},
+  "a8": {"name": "Chris Hemsworth", "role": "Thor"},
+  "a9": {"name": "Natalie Portman", "role": "Jane Foster"},
+  "a10": {"name": "Tom Hiddleston", "role": "Loki"},
+  "a11": {"name": "Samuel L. Jackson", "role": "Nick Fury"},
+  "a12": {
+    "name": "Scarlett Johansson",
+    "role": "Natasha Romanoff / Black Widow"
+  },
+  "a13": {"name": "Jeremy Renner", "role": "Clint Barton / Hawkeye"},
+  "a14": {"name": "Mark Ruffalo", "role": "Bruce Banner / Hulk"}
+}
