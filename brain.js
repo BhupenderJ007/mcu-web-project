@@ -1,9 +1,9 @@
 let upper = document.querySelector('.upper');
-let boxes = document.querySelectorAll('.box');
+let boxes = document.querySelectorAll('.moviebox');
 let imgfm = document.getElementById('imgfm');
 let imgh = document.querySelector('.imgh');
 let bplate = document.querySelector('.bplate');
-
+const nameplate = document.querySelector('#nameof');
 
 
 const binfo = document.querySelector('.binfo');
@@ -61,6 +61,7 @@ async function setimages(data3) {
     let castjson = await castdata.json();
 
     let castmem =moviesjson.movies[data3].cast;
+
     castmem.forEach(member => {
 
         const newmem = template.cloneNode(true);
@@ -122,7 +123,8 @@ boxes.forEach(box => {
         upper.style.display = 'flex';
         imgfm.src = box.querySelector('img').src;
         imgfm.alt = box.querySelector('p').textContent;
-       
+        nameplate.textContent = box.querySelector('p').textContent;
+        console.log(box.querySelector('p').textContent);
         setimages(imgfm.alt);
     
    

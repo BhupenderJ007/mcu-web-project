@@ -87,8 +87,8 @@ p{
   
 } 
 .cimg{
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -278,21 +278,21 @@ header {
     }
     
 
-    .box {
+    .moviebox {
       top : 10vh;
       
       background:#29272737;
       border-radius: 8px;
       padding: 10px;
       backdrop-filter: blur(5px);
-      border: rgba(115, 114, 114, 0.269) 1px solid;
+      border: rgba(115, 114, 114, 0.457) 1px solid;
       display: flex;
       flex-direction: column;
 
       
     }
 
-    .box img {
+    .moviebox img {
       top: 0;
       width: 100%;
       height: 80%;
@@ -302,23 +302,25 @@ header {
     }
    
 
-    .box p {
+    .moviebox p {
+      color: rgb(233, 219, 219);
       margin: 0;
       font-size: 14px;
       font-weight: bold;
       text-align: bottom;
     }
 
-    .box p.year {
+    .moviebox p.year {
       margin: 0;
       font-size: 12px;
       font-weight: normal;
       text-align: bottom;
     }
-    .box:hover {
+    .moviebox:hover {
       
       box-shadow: 4px 4px 15px rgba(10, 10, 10, 0.794);
       transform: scale(1.02);
       transition: box-shadow 0.1s, transform 0.1s;
     }
+    
 
