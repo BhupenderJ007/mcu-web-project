@@ -18,6 +18,8 @@ const creatorcontainer = document.querySelector('.creatorslide');
 const trailerlink = document.getElementById('iframe1');
 
 
+
+
 trabtn.addEventListener('click', (event) => {
     event.stopPropagation();
   
@@ -126,6 +128,7 @@ boxes.forEach(box => {
         nameplate.textContent = box.querySelector('p').textContent;
         console.log(box.querySelector('p').textContent);
         setimages(imgfm.alt);
+        
     
    
     });

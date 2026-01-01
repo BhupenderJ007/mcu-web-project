@@ -8,6 +8,15 @@ p{
   margin: 2px;
 }
 
+.nameof2{
+  font-size: 30px; 
+  font-weight: bolder;
+  margin-left : 3%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: #ff0000;
+}
+
 .binfo {
   display:inline-block;
   width: 100%;
@@ -108,7 +117,7 @@ p{
 
 
 .bplate {
-      backdrop-filter: blur(8px);
+      backdrop-filter: blur(10px);
       overflow-y: auto;
       
       padding: 10px;
@@ -162,7 +171,7 @@ p{
   top: 0;
   left: 0;
   z-index: 5000;
-  background-color: #36363672;
+  background-color: #36363629;
   display: none;
   justify-content: center;
   align-items: center;
@@ -212,9 +221,9 @@ header {
       top: 0;
       left: 0;
       width: 100%;
-      height: 10vh;
+      height: 90px;
       background: rgb(0, 0, 0);
-     
+     display: flex;
       text-align: center;
       
       z-index: 1000;
@@ -230,11 +239,11 @@ header {
       text-align: center;
       
         position:sticky;
-        top:10vh;
+        top:90px;
         backdrop-filter: blur(5px);
        background:#2927276e;
         
-        color:#292929;
+        color:#d5d4d4;
         font-weight: bold;
         border: rgb(250, 250, 250) 0px solid;
 }
@@ -242,40 +251,53 @@ header {
     header img {
       width: auto;
       height: 100%;
+      margin: auto;
+      
     }
 
     
     #spacer {
-      height: 10vh;
+      height: 90px;
     }
 
     
     .container {
       margin :4vh;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 1vw;
+     }
+
+    @media (max-width: 1200px) {
+      .container {
+        grid-template-columns: repeat( 6, 1fr);
+      }
       
+    }
+
+    @media (max-width: 1000px) {
+      .container {
+        grid-template-columns: repeat(5, 1fr);
+      }
+      header img {
+       margin-right: 3%;
+      margin-left: auto;
+      }
       
+     
     }
-     @media (min-width: 768px) {
+
+    @media (max-width: 700px) {
       .container {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat( 2, 1fr);
+      }
+      header img {
+       margin-right: 3%;
+      margin-left: auto;
       }
     }
 
-
-    @media (min-width: 998px) {
-      .container {
-        grid-template-columns: repeat(6, 1fr);
-      }
-    }
-
-    @media (min-width: 1200px) {
-      .container {
-        grid-template-columns: repeat(auto-fit, 6, 1fr);
-      }
-    }
+    
     
 
     .moviebox {
@@ -322,5 +344,4 @@ header {
       transform: scale(1.02);
       transition: box-shadow 0.1s, transform 0.1s;
     }
-    
-
+  
